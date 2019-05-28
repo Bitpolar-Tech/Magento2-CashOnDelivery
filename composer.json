@@ -1,5 +1,5 @@
 {
-  "name": "bitpolar/module-cashondelivery",
+  "name": "bitpolar/magento2-cashondelivery",
   "description": "Cash on Delivery module for Magento 2",
   "require": {
     "magento/module-checkout": ">=100.0.0",
