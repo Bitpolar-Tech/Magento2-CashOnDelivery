@@ -9,26 +9,26 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Model\OrderData;
+namespace Bitpolar\CashOnDelivery\Model\OrderData;
 
 use Magento\Sales\Model\Order;
-use Phoenix\CashOnDelivery\Api\Data\OrderDataInterface;
-use Phoenix\CashOnDelivery\Api\OrderDataProviderInterface;
+use Bitpolar\CashOnDelivery\Api\Data\OrderDataInterface;
+use Bitpolar\CashOnDelivery\Api\OrderDataProviderInterface;
 
 class Provider implements OrderDataProviderInterface
 {
     /**
-     * @var \Phoenix\CashOnDelivery\Model\OrderDataFactory $_orderDataFactory
+     * @var \Bitpolar\CashOnDelivery\Model\OrderDataFactory $_orderDataFactory
      */
     private $_orderDataFactory;
 
     public function __construct(
-        \Phoenix\CashOnDelivery\Model\OrderDataFactory $orderDataFactory
+        \Bitpolar\CashOnDelivery\Model\OrderDataFactory $orderDataFactory
     ) {
         $this->_orderDataFactory = $orderDataFactory;
     }

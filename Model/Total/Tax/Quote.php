@@ -9,12 +9,12 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Model\Total\Tax;
+namespace Bitpolar\CashOnDelivery\Model\Total\Tax;
 
 use Magento\Tax\Api\Data\TaxDetailsInterface;
 use Magento\Tax\Model\Sales\Total\Quote\CommonTaxCollector;
@@ -25,7 +25,7 @@ use Magento\Customer\Api\Data\AddressInterfaceFactory as CustomerAddressFactory;
 use Magento\Customer\Api\Data\RegionInterfaceFactory as CustomerAddressRegionFactory;
 use Magento\Tax\Api\Data\TaxClassKeyInterface;
 use Magento\Tax\Api\Data\TaxDetailsItemInterface;
-use Phoenix\CashOnDelivery\Helper\Data;
+use Bitpolar\CashOnDelivery\Helper\Data;
 
 class Quote extends CommonTaxCollector
 {

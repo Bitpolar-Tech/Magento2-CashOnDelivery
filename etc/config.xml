@@ -10,7 +10,7 @@
             <phoenix_cashondelivery>
                 <active>0</active>
                 <title>Cash on Delivery</title>
-                <model>Phoenix\CashOnDelivery\Model\CashOnDelivery</model>
+                <model>Bitpolar\CashOnDelivery\Model\CashOnDelivery</model>
                 <can_authorize>1</can_authorize>
                 <can_capture>1</can_capture>
                 <can_void>1</can_void>

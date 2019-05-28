@@ -9,22 +9,22 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Model;
+namespace Bitpolar\CashOnDelivery\Model;
 
-use Phoenix\CashOnDelivery\Model\Ui\ConfigProvider;
+use Bitpolar\CashOnDelivery\Model\Ui\ConfigProvider;
 
 class CashOnDelivery extends \Magento\Payment\Model\Method\AbstractMethod
 {
     protected $_code = ConfigProvider::CODE;
 
-    protected $_formBlockType = 'Phoenix\CashOnDelivery\Block\Form';
+    protected $_formBlockType = 'Bitpolar\CashOnDelivery\Block\Form';
 
-    protected $_infoBlockType = 'Phoenix\CashOnDelivery\Block\Info';
+    protected $_infoBlockType = 'Bitpolar\CashOnDelivery\Block\Info';
 
     protected $_isOffline = true;
 

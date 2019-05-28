@@ -10,7 +10,7 @@
         </section>
         <section id="payment">
             <group id="phoenix_cashondelivery" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" translate="label">
-                <label>Phoenix Cash on Delivery</label>
+                <label>Zahlung per Nachnahme (Bitpolar)</label>
                 <field id="active" type="select" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -35,7 +35,7 @@
                 </field>
                 <field id="cost_type" translate="label" type="select" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Cost calculation</label>
-                    <source_model>Phoenix\CashOnDelivery\Model\Config\Source\CalculationType</source_model>
+                    <source_model>Bitpolar\CashOnDelivery\Model\Config\Source\CalculationType</source_model>
                 </field>
                 <field id="inlandcosts" translate="label" sortOrder="61" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Cost for inland shipping</label>

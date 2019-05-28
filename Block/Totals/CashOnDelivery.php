@@ -9,18 +9,18 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Block\Totals;
+namespace Bitpolar\CashOnDelivery\Block\Totals;
 
 use Magento\Framework\DataObject;
 use Magento\Framework\View\Element\Template;
 use Magento\Tax\Model\Config as TaxConfig;
-use Phoenix\CashOnDelivery\Helper\Data;
-use Phoenix\CashOnDelivery\Model\Config;
+use Bitpolar\CashOnDelivery\Helper\Data;
+use Bitpolar\CashOnDelivery\Model\Config;
 
 class CashOnDelivery extends Template
 {

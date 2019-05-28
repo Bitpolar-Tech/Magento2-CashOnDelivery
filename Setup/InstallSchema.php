@@ -9,19 +9,19 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Setup;
+namespace Bitpolar\CashOnDelivery\Setup;
 
 use Magento\Framework\DB\Ddl\Table;
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
-use Phoenix\CashOnDelivery\Api\Data\FeeInterface;
-use Phoenix\CashOnDelivery\Api\Data\OrderDataInterface;
+use Bitpolar\CashOnDelivery\Api\Data\FeeInterface;
+use Bitpolar\CashOnDelivery\Api\Data\OrderDataInterface;
 
 class InstallSchema implements InstallSchemaInterface
 {

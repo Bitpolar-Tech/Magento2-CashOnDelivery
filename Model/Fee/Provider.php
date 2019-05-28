@@ -9,26 +9,26 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Model\Fee;
+namespace Bitpolar\CashOnDelivery\Model\Fee;
 
 use Magento\Framework\Model\AbstractModel;
-use Phoenix\CashOnDelivery\Api\Data\FeeInterface;
-use Phoenix\CashOnDelivery\Api\FeeProviderInterface;
+use Bitpolar\CashOnDelivery\Api\Data\FeeInterface;
+use Bitpolar\CashOnDelivery\Api\FeeProviderInterface;
 
 class Provider implements FeeProviderInterface
 {
     /**
-     * @var \Phoenix\CashOnDelivery\Model\FeeFactory $_feeFactory
+     * @var \Bitpolar\CashOnDelivery\Model\FeeFactory $_feeFactory
      */
     private $_feeFactory;
 
     public function __construct(
-        \Phoenix\CashOnDelivery\Model\FeeFactory $feeFactory
+        \Bitpolar\CashOnDelivery\Model\FeeFactory $feeFactory
     ) {
         $this->_feeFactory = $feeFactory;
     }

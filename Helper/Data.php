@@ -9,12 +9,12 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Helper;
+namespace Bitpolar\CashOnDelivery\Helper;
 
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 use Magento\Quote\Model\Quote;
@@ -22,12 +22,12 @@ use Magento\Sales\Model\Order;
 use Magento\Sales\Model\Order\Invoice;
 use Magento\Sales\Model\Order\Creditmemo;
 use Magento\Store\Model\Store;
-use Phoenix\CashOnDelivery\Model\Config;
-use Phoenix\CashOnDelivery\Model\Ui\ConfigProvider;
+use Bitpolar\CashOnDelivery\Model\Config;
+use Bitpolar\CashOnDelivery\Model\Ui\ConfigProvider;
 
 /**
  * Class Data
- * @package Phoenix\CashOnDelivery\Helper
+ * @package Bitpolar\CashOnDelivery\Helper
  */
 class Data
 {

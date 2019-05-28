@@ -8,10 +8,10 @@
                         <item name="block-totals" xsi:type="array">
                             <item name="children" xsi:type="array">
                                 <item name="cashondelivery" xsi:type="array">
-                                    <item name="component"  xsi:type="string">Phoenix_CashOnDelivery/js/view/checkout/cart/totals/cashondelivery</item>
+                                    <item name="component"  xsi:type="string">Bitpolar_CashOnDelivery/js/view/checkout/cart/totals/cashondelivery</item>
                                     <item name="sortOrder" xsi:type="string">20</item>
                                     <item name="config" xsi:type="array">
-                                        <item name="template" xsi:type="string">Phoenix_CashOnDelivery/checkout/cart/totals/cashondelivery</item>
+                                        <item name="template" xsi:type="string">Bitpolar_CashOnDelivery/checkout/cart/totals/cashondelivery</item>
                                         <item name="title" xsi:type="string" translate="true">Cash on Delivery fee</item>
                                     </item>
                                 </item>

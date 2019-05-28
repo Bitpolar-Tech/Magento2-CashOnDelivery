@@ -1,6 +1,6 @@
 {
-  "name": "phoenix/module-cashondelivery",
-  "description": "Phoenix Cash on Delivery module for Magento 2",
+  "name": "bitpolar/module-cashondelivery",
+  "description": "Cash on Delivery module for Magento 2",
   "require": {
     "magento/module-checkout": ">=100.0.0",
     "magento/module-payment": ">=100.0.0",
@@ -18,7 +18,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Phoenix\\CashOnDelivery\\": ""
+      "Bitpolar\\CashOnDelivery\\": ""
     }
   }
 }

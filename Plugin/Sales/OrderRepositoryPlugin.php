@@ -9,18 +9,18 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Plugin\Sales;
+namespace Bitpolar\CashOnDelivery\Plugin\Sales;
 
 use Magento\Framework\Api\SearchResultsInterface;
 use Magento\Sales\Api\Data\OrderExtensionFactory;
 use Magento\Sales\Api\OrderRepositoryInterface;
 use Magento\Sales\Model\Order;
-use Phoenix\CashOnDelivery\Api\OrderDataProviderInterface;
+use Bitpolar\CashOnDelivery\Api\OrderDataProviderInterface;
 
 class OrderRepositoryPlugin
 {

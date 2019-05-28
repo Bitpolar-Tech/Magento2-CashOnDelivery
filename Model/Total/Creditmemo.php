@@ -9,19 +9,19 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Model\Total;
+namespace Bitpolar\CashOnDelivery\Model\Total;
 
 use Magento\Sales\Model\Order\Creditmemo\Total\AbstractTotal;
 use Magento\Sales\Model\Order\Creditmemo as MagentoCreditmemo;
 use Magento\Framework\Exception\LocalizedException;
-use Phoenix\CashOnDelivery\Helper\Data;
-use Phoenix\CashOnDelivery\Helper\Request;
-use Phoenix\CashOnDelivery\Model\Config;
+use Bitpolar\CashOnDelivery\Helper\Data;
+use Bitpolar\CashOnDelivery\Helper\Request;
+use Bitpolar\CashOnDelivery\Model\Config;
 
 class Creditmemo extends AbstractTotal
 {

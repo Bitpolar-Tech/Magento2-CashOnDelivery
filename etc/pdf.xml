@@ -7,7 +7,7 @@
             <font_size>7</font_size>
             <display_zero>false</display_zero>
             <sort_order>450</sort_order>
-            <model>Phoenix\CashOnDelivery\Model\Pdf\Total</model>
+            <model>Bitpolar\CashOnDelivery\Model\Pdf\Total</model>
         </total>
     </totals>
 </config>

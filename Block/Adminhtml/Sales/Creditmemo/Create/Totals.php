@@ -9,23 +9,23 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Block\Adminhtml\Sales\Creditmemo\Create;
+namespace Bitpolar\CashOnDelivery\Block\Adminhtml\Sales\Creditmemo\Create;
 
 use Magento\Framework\View\Element\Template;
 use Magento\Framework\DataObject;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
-use Phoenix\CashOnDelivery\Model\Config;
-use Phoenix\CashOnDelivery\Helper\Data;
+use Bitpolar\CashOnDelivery\Model\Config;
+use Bitpolar\CashOnDelivery\Helper\Data;
 
 /**
  * Gets totals form for to-be-created credit memos
  *
- * @package Phoenix\CashOnDelivery\Block\Adminhtml\Sales\Creditmemo\Create
+ * @package Bitpolar\CashOnDelivery\Block\Adminhtml\Sales\Creditmemo\Create
  */
 class Totals extends Template
 {

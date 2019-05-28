@@ -9,12 +9,12 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Api\Data;
+namespace Bitpolar\CashOnDelivery\Api\Data;
 
 use Magento\Framework\Api\ExtensibleDataInterface;
 
@@ -95,15 +95,15 @@ interface FeeInterface extends ExtensibleDataInterface
     public function setFeeInclTax($feeInclTax);
 
     /**
-     * @return \Phoenix\CashOnDelivery\Api\Data\FeeExtensionInterface|null
+     * @return \Bitpolar\CashOnDelivery\Api\Data\FeeExtensionInterface|null
      */
     public function getExtensionAttributes();
 
     /**
-     * @param \Phoenix\CashOnDelivery\Api\Data\FeeExtensionInterface $extensionAttributes
+     * @param \Bitpolar\CashOnDelivery\Api\Data\FeeExtensionInterface $extensionAttributes
      * @return self
      */
     public function setExtensionAttributes(
-        \Phoenix\CashOnDelivery\Api\Data\FeeExtensionInterface $extensionAttributes
+        \Bitpolar\CashOnDelivery\Api\Data\FeeExtensionInterface $extensionAttributes
     );
 }

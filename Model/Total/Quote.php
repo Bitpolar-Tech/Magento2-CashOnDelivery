@@ -9,18 +9,18 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  * @category   Mage
- * @package    Phoenix_CashOnDelivery
+ * @package    Bitpolar_CashOnDelivery
  * @copyright  Copyright (c) 2017 Phoenix Media GmbH (http://www.phoenix-media.eu)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace Phoenix\CashOnDelivery\Model\Total;
+namespace Bitpolar\CashOnDelivery\Model\Total;
 
 use Magento\Quote\Model\Quote\Address\Total\AbstractTotal;
 use Magento\Quote\Model\Quote as MagentoQuote;
 use Magento\Quote\Api\Data\ShippingAssignmentInterface;
 use Magento\Quote\Model\Quote\Address\Total;
-use Phoenix\CashOnDelivery\Helper\Data;
+use Bitpolar\CashOnDelivery\Helper\Data;
 
 class Quote extends AbstractTotal
 {
