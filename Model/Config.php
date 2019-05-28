@@ -25,45 +25,45 @@ use Magento\Store\Model\Store;
  */
 class Config
 {
-    const XML_PATH_PHOENIX_CASHONDELIVERY_TOTALS_SORT = 'sales/totals_sort/phoenix_cashondelivery';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_TOTALS_SORT = 'sales/totals_sort/bitpolar_cashondelivery';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_ACTIVE = 'payment/phoenix_cashondelivery/active';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_ACTIVE = 'payment/bitpolar_cashondelivery/active';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_DISPLAY_ZERO_FEE = 'payment/phoenix_cashondelivery/display_zero_fee';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_DISPLAY_ZERO_FEE = 'payment/bitpolar_cashondelivery/display_zero_fee';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_TITLE = 'payment/phoenix_cashondelivery/title';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_TITLE = 'payment/bitpolar_cashondelivery/title';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_NEW_ORDER_STATUS = 'payment/phoenix_cashondelivery/order_status';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_NEW_ORDER_STATUS = 'payment/bitpolar_cashondelivery/order_status';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_APPLICABLE_COUNTRIES = 'payment/phoenix_cashondelivery/allowspecific';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_APPLICABLE_COUNTRIES = 'payment/bitpolar_cashondelivery/allowspecific';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_SPECIFIC_COUNTRIES = 'payment/phoenix_cashondelivery/specificcountry';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_SPECIFIC_COUNTRIES = 'payment/bitpolar_cashondelivery/specificcountry';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_MIN_ORDER_TOTAL = 'payment/phoenix_cashondelivery/min_order_total';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_MIN_ORDER_TOTAL = 'payment/bitpolar_cashondelivery/min_order_total';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_MAX_ORDER_TOTAL = 'payment/phoenix_cashondelivery/max_order_total';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_MAX_ORDER_TOTAL = 'payment/bitpolar_cashondelivery/max_order_total';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_COST_TYPE = 'payment/phoenix_cashondelivery/cost_type';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_COST_TYPE = 'payment/bitpolar_cashondelivery/cost_type';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_INLAND_COST = 'payment/phoenix_cashondelivery/inlandcosts';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_INLAND_COST = 'payment/bitpolar_cashondelivery/inlandcosts';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_MIN_INLAND_COST = 'payment/phoenix_cashondelivery/minimum_inlandcosts';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_MIN_INLAND_COST = 'payment/bitpolar_cashondelivery/minimum_inlandcosts';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_FOREIGN_COST = 'payment/phoenix_cashondelivery/foreigncountrycosts';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_FOREIGN_COST = 'payment/bitpolar_cashondelivery/foreigncountrycosts';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_MIN_FOREIGN_COST = 'payment/phoenix_cashondelivery/minimum_foreigncountrycosts';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_MIN_FOREIGN_COST = 'payment/bitpolar_cashondelivery/minimum_foreigncountrycosts';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_CUSTOM_TEXT = 'payment/phoenix_cashondelivery/customtext';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_CUSTOM_TEXT = 'payment/bitpolar_cashondelivery/customtext';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_DISALLOW_SPECIFIC_SHIPPING = 'payment/phoenix_cashondelivery/disallowspecificshippingmethods';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_DISALLOW_SPECIFIC_SHIPPING = 'payment/bitpolar_cashondelivery/disallowspecificshippingmethods';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_DISALLOW_SHIPPING_METHODS = 'payment/phoenix_cashondelivery/disallowedshippingmethods';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_DISALLOW_SHIPPING_METHODS = 'payment/bitpolar_cashondelivery/disallowedshippingmethods';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_TAX_CLASS = 'tax/classes/phoenix_cashondelivery_tax_class';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_TAX_CLASS = 'tax/classes/bitpolar_cashondelivery_tax_class';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_FEE_INCLUDES_TAX = 'tax/calculation/phoenix_cashondelivery_includes_tax';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_FEE_INCLUDES_TAX = 'tax/calculation/bitpolar_cashondelivery_includes_tax';
 
-    const XML_PATH_PHOENIX_CASHONDELIVERY_FEE_DISPLAY = 'tax/display/phoenix_cashondelivery_fee';
+    const XML_PATH_BITPOLAR_CASHONDELIVERY_FEE_DISPLAY = 'tax/display/bitpolar_cashondelivery_fee';
 
     const XML_PATH_SHIPPING_ORIGIN_COUNTRY = 'shipping/origin/country_id';
 
@@ -96,7 +96,7 @@ class Config
      */
     public function isActive($store = null)
     {
-        return $this->_getConfigFlag(self::XML_PATH_PHOENIX_CASHONDELIVERY_ACTIVE, $store);
+        return $this->_getConfigFlag(self::XML_PATH_BITPOLAR_CASHONDELIVERY_ACTIVE, $store);
     }
 
     /**
@@ -107,7 +107,7 @@ class Config
      */
     public function displayZeroFee($store = null)
     {
-        return $this->_getConfigFlag(self::XML_PATH_PHOENIX_CASHONDELIVERY_DISPLAY_ZERO_FEE, $store);
+        return $this->_getConfigFlag(self::XML_PATH_BITPOLAR_CASHONDELIVERY_DISPLAY_ZERO_FEE, $store);
     }
 
     /**
@@ -118,7 +118,7 @@ class Config
      */
     public function allowSpecificCountries($store = null)
     {
-        return $this->_getConfigFlag(self::XML_PATH_PHOENIX_CASHONDELIVERY_APPLICABLE_COUNTRIES, $store);
+        return $this->_getConfigFlag(self::XML_PATH_BITPOLAR_CASHONDELIVERY_APPLICABLE_COUNTRIES, $store);
     }
 
     /**
@@ -129,7 +129,7 @@ class Config
      */
     public function codFeeIncludesTax($store = null)
     {
-        return $this->_getConfigFlag(self::XML_PATH_PHOENIX_CASHONDELIVERY_FEE_INCLUDES_TAX, $store);
+        return $this->_getConfigFlag(self::XML_PATH_BITPOLAR_CASHONDELIVERY_FEE_INCLUDES_TAX, $store);
     }
 
     /**
@@ -140,7 +140,7 @@ class Config
      */
     public function disallowSpecificShippingMethods($store = null)
     {
-        return $this->_getConfigFlag(self::XML_PATH_PHOENIX_CASHONDELIVERY_DISALLOW_SPECIFIC_SHIPPING, $store);
+        return $this->_getConfigFlag(self::XML_PATH_BITPOLAR_CASHONDELIVERY_DISALLOW_SPECIFIC_SHIPPING, $store);
     }
 
     /**
@@ -151,7 +151,7 @@ class Config
      */
     public function getTotalsSortOrder($store = null)
     {
-        return (int)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_TOTALS_SORT, $store);
+        return (int)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_TOTALS_SORT, $store);
     }
 
     /**
@@ -162,7 +162,7 @@ class Config
      */
     public function getTitle($store = null)
     {
-        return (string)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_TITLE, $store);
+        return (string)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_TITLE, $store);
     }
 
     /**
@@ -173,7 +173,7 @@ class Config
      */
     public function getNewOrderStatus($store = null)
     {
-        return (string)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_NEW_ORDER_STATUS, $store);
+        return (string)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_NEW_ORDER_STATUS, $store);
     }
 
     /**
@@ -184,7 +184,7 @@ class Config
      */
     public function getSpecificCountries($store = null)
     {
-        return $this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_SPECIFIC_COUNTRIES, $store);
+        return $this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_SPECIFIC_COUNTRIES, $store);
     }
 
     /**
@@ -195,7 +195,7 @@ class Config
      */
     public function getMinOrderTotal($store = null)
     {
-        return (float)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_MIN_ORDER_TOTAL, $store);
+        return (float)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_MIN_ORDER_TOTAL, $store);
     }
 
     /**
@@ -207,7 +207,7 @@ class Config
      */
     public function getMaxOrderTotal($store = null)
     {
-        return (float)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_MAX_ORDER_TOTAL, $store);
+        return (float)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_MAX_ORDER_TOTAL, $store);
     }
 
     /**
@@ -218,7 +218,7 @@ class Config
      */
     public function getCalculationType($store = null)
     {
-        return (int)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_COST_TYPE, $store);
+        return (int)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_COST_TYPE, $store);
     }
 
     /**
@@ -229,7 +229,7 @@ class Config
      */
     public function getInlandCost($store = null)
     {
-        return (float)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_INLAND_COST, $store);
+        return (float)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_INLAND_COST, $store);
     }
 
     /**
@@ -240,7 +240,7 @@ class Config
      */
     public function getMinInlandCost($store = null)
     {
-        return (float)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_MIN_INLAND_COST, $store);
+        return (float)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_MIN_INLAND_COST, $store);
     }
 
     /**
@@ -251,7 +251,7 @@ class Config
      */
     public function getForeignCost($store = null)
     {
-        return (float)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_FOREIGN_COST, $store);
+        return (float)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_FOREIGN_COST, $store);
     }
 
     /**
@@ -262,7 +262,7 @@ class Config
      */
     public function getMinForeignCost($store = null)
     {
-        return (float)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_MIN_FOREIGN_COST, $store);
+        return (float)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_MIN_FOREIGN_COST, $store);
     }
 
     /**
@@ -273,7 +273,7 @@ class Config
      */
     public function getCustomText($store = null)
     {
-        return (string)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_CUSTOM_TEXT, $store);
+        return (string)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_CUSTOM_TEXT, $store);
     }
 
     /**
@@ -284,7 +284,7 @@ class Config
      */
     public function getDisallowedShippingMethods($store = null)
     {
-        return explode(',', $this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_DISALLOW_SHIPPING_METHODS, $store));
+        return explode(',', $this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_DISALLOW_SHIPPING_METHODS, $store));
     }
     /**
      * Get the tax class for calculation of taxes
@@ -294,7 +294,7 @@ class Config
      */
     public function getTaxClassId($store = null)
     {
-        return (int)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_TAX_CLASS, $store);
+        return (int)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_TAX_CLASS, $store);
     }
 
     /**
@@ -308,7 +308,7 @@ class Config
      */
     public function getDisplayType($store = null)
     {
-        return (int)$this->_getConfigValue(self::XML_PATH_PHOENIX_CASHONDELIVERY_FEE_DISPLAY, $store);
+        return (int)$this->_getConfigValue(self::XML_PATH_BITPOLAR_CASHONDELIVERY_FEE_DISPLAY, $store);
     }
 
     /**

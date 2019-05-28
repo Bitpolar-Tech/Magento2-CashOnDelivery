@@ -3,11 +3,11 @@
     <default>
         <sales>
             <totals_sort>
-                <phoenix_cashondelivery>35</phoenix_cashondelivery>
+                <bitpolar_cashondelivery>35</bitpolar_cashondelivery>
             </totals_sort>
         </sales>
         <payment>
-            <phoenix_cashondelivery>
+            <bitpolar_cashondelivery>
                 <active>0</active>
                 <title>Cash on Delivery</title>
                 <model>Bitpolar\CashOnDelivery\Model\CashOnDelivery</model>
@@ -24,17 +24,17 @@
                 <shippingallowspecific>0</shippingallowspecific>
                 <disallowspecificshippingmethods>0</disallowspecificshippingmethods>
                 <display_zero_fee>0</display_zero_fee>
-            </phoenix_cashondelivery>
+            </bitpolar_cashondelivery>
         </payment>
         <tax>
             <classes>
-                <phoenix_cashondelivery_tax_class>0</phoenix_cashondelivery_tax_class>
+                <bitpolar_cashondelivery_tax_class>0</bitpolar_cashondelivery_tax_class>
             </classes>
             <calculation>
-                <phoenix_cashondelivery_includes_tax>0</phoenix_cashondelivery_includes_tax>
+                <bitpolar_cashondelivery_includes_tax>0</bitpolar_cashondelivery_includes_tax>
             </calculation>
             <display>
-                <phoenix_cashondelivery_fee>1</phoenix_cashondelivery_fee>
+                <bitpolar_cashondelivery_fee>1</bitpolar_cashondelivery_fee>
             </display>
         </tax>
     </default>

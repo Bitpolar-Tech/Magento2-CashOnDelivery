@@ -22,7 +22,7 @@ use Bitpolar\CashOnDelivery\Model\Config;
 
 class ConfigProvider implements ConfigProviderInterface
 {
-    const CODE = 'phoenix_cashondelivery';
+    const CODE = 'bitpolar_cashondelivery';
 
     /**
      * @var Config $config

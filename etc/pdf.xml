@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Sales:etc/pdf_file.xsd">
     <totals>
-        <total name="phoenix_cashondelivery">
+        <total name="bitpolar_cashondelivery">
             <title translate="true">Cash on Delivery fee</title>
             <source_field>cod_fee</source_field>
             <font_size>7</font_size>

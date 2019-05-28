@@ -25,14 +25,14 @@ define(
 
         quote.paymentMethod.subscribe(function (oldValue) {
             if (oldValue !== null) {
-                window.checkoutConfig.payment.phoenix_cashondelivery.previousMethod = oldValue.method;
+                window.checkoutConfig.payment.bitpolar_cashondelivery.previousMethod = oldValue.method;
             }
         }, null, 'beforeChange');
 
         quote.paymentMethod.subscribe(function (newValue) {
-            var oldMethod = window.checkoutConfig.payment.phoenix_cashondelivery.previousMethod;
+            var oldMethod = window.checkoutConfig.payment.bitpolar_cashondelivery.previousMethod;
             var newMethod = newValue.method;
-            if (oldMethod === 'phoenix_cashondelivery' || newMethod === 'phoenix_cashondelivery') {
+            if (oldMethod === 'bitpolar_cashondelivery' || newMethod === 'bitpolar_cashondelivery') {
                 var paymentMethod = quote.paymentMethod();
                 if (paymentMethod.title) {
                     return;
@@ -44,10 +44,10 @@ define(
 
         return Component.extend({
             defaults: {
-                template: 'Bitpolar_CashOnDelivery/payment/phoenix_cashondelivery'
+                template: 'Bitpolar_CashOnDelivery/payment/bitpolar_cashondelivery'
             },
             getCustomText: function () {
-                return window.checkoutConfig.payment.phoenix_cashondelivery.customText;
+                return window.checkoutConfig.payment.bitpolar_cashondelivery.customText;
             }
         });
     }

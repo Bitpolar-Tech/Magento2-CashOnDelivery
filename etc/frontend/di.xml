@@ -3,7 +3,7 @@
     <type name="Magento\Checkout\Model\CompositeConfigProvider">
         <arguments>
             <argument name="configProviders" xsi:type="array">
-                <item name="phoenix_cashondelivery_config_provider" xsi:type="object">Bitpolar\CashOnDelivery\Model\Ui\ConfigProvider</item>
+                <item name="bitpolar_cashondelivery_config_provider" xsi:type="object">Bitpolar\CashOnDelivery\Model\Ui\ConfigProvider</item>
             </argument>
         </arguments>
     </type>

@@ -6,7 +6,7 @@
         </group>
     </groups>
     <methods>
-        <method name="phoenix_cashondelivery">
+        <method name="bitpolar_cashondelivery">
             <allow_multiple_address>1</allow_multiple_address>
         </method>
     </methods>

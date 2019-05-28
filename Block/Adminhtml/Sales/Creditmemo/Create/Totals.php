@@ -94,7 +94,7 @@ class Totals extends Template
         }
 
         $total = new DataObject([
-            'code' => 'phoenix_cashondelivery_fee',
+            'code' => 'bitpolar_cashondelivery_fee',
             'block_name' => $this->getNameInLayout(),
         ]);
 

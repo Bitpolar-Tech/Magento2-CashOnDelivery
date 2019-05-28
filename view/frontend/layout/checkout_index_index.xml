@@ -16,10 +16,10 @@
                                                     <item name="children" xsi:type="array">
                                                         <item name="renders" xsi:type="array">
                                                             <item name="children" xsi:type="array">
-                                                                <item name="phoenix-cashondelivery" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Bitpolar_CashOnDelivery/js/view/payment/phoenix_cashondelivery</item>
+                                                                <item name="bitpolar-cashondelivery" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">Bitpolar_CashOnDelivery/js/view/payment/bitpolar_cashondelivery</item>
                                                                     <item name="methods" xsi:type="array">
-                                                                        <item name="phoenix_cashondelivery" xsi:type="array">
+                                                                        <item name="bitpolar_cashondelivery" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
                                                                         </item>
                                                                     </item>

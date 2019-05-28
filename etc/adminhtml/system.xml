@@ -3,13 +3,13 @@
     <system>
         <section id="sales">
             <group id="totals_sort" type="">
-                <field id="phoenix_cashondelivery" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
+                <field id="bitpolar_cashondelivery" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
                     <label>Cash on Delivery fee</label>
                 </field>
             </group>
         </section>
         <section id="payment">
-            <group id="phoenix_cashondelivery" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" translate="label">
+            <group id="bitpolar_cashondelivery" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" translate="label">
                 <label>Zahlung per Nachnahme (Bitpolar)</label>
                 <field id="active" type="select" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Enabled</label>
@@ -82,21 +82,21 @@
         </section>
         <section id="tax">
             <group id="classes" translate="label">
-                <field id="phoenix_cashondelivery_tax_class" type="select" translate="label" sortOrder="15" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                <field id="bitpolar_cashondelivery_tax_class" type="select" translate="label" sortOrder="15" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Tax Class for Cash on Delivery fee</label>
                     <source_model>Magento\Tax\Model\TaxClass\Source\Product</source_model>
                     <backend_model>Magento\Tax\Model\Config\TaxClass</backend_model>
                 </field>
             </group>
             <group id="calculation">
-                <field id="phoenix_cashondelivery_includes_tax" type="select" translate="label" sortOrder="35" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                <field id="bitpolar_cashondelivery_includes_tax" type="select" translate="label" sortOrder="35" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Cash on Delivery fee</label>
                     <source_model>Magento\Tax\Model\System\Config\Source\PriceType</source_model>
                     <backend_model>Magento\Tax\Model\Config\Price\IncludePrice</backend_model>
                 </field>
             </group>
             <group id="display">
-                <field id="phoenix_cashondelivery_fee" type="select" translate="label" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                <field id="bitpolar_cashondelivery_fee" type="select" translate="label" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Display Cash on Delivery fee</label>
                     <source_model>Magento\Tax\Model\System\Config\Source\Tax\Display\Type</source_model>
                     <backend_model>Magento\Tax\Model\Config\Notification</backend_model>

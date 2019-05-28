@@ -24,8 +24,8 @@ define(
         'use strict';
         rendererList.push(
             {
-                type: 'phoenix_cashondelivery',
-                component: 'Bitpolar_CashOnDelivery/js/view/payment/method-renderer/phoenix_cashondelivery'
+                type: 'bitpolar_cashondelivery',
+                component: 'Bitpolar_CashOnDelivery/js/view/payment/method-renderer/bitpolar_cashondelivery'
             }
         );
         return Component.extend({});

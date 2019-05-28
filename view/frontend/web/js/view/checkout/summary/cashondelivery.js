@@ -41,7 +41,7 @@ define([
             var selected = false;
             if (quote.paymentMethod()) {
                 var paymentMethod = quote.paymentMethod().method;
-                selected = paymentMethod === 'phoenix_cashondelivery';
+                selected = paymentMethod === 'bitpolar_cashondelivery';
             }
             return selected;
         },
@@ -67,13 +67,13 @@ define([
             return this.getFormattedPrice(price);
         },
         displayIncluding: function () {
-            var displayType = window.checkoutConfig.payment.phoenix_cashondelivery.displayType;
+            var displayType = window.checkoutConfig.payment.bitpolar_cashondelivery.displayType;
             return displayType === displayTypes.INCLUDING_TAX || displayType === displayTypes.BOTH;
         },
         displayExcluding: function () {
-            var displayType = window.checkoutConfig.payment.phoenix_cashondelivery.displayType;
+            var displayType = window.checkoutConfig.payment.bitpolar_cashondelivery.displayType;
             return displayType === displayTypes.EXCLUDING_TAX || displayType === displayTypes.BOTH;
         },
-        dispayZeroFee: window.checkoutConfig.payment.phoenix_cashondelivery.displayZeroFee
+        dispayZeroFee: window.checkoutConfig.payment.bitpolar_cashondelivery.displayZeroFee
     })
 });
